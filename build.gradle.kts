@@ -22,8 +22,8 @@ android {
 dependencies {
     implementation(libs.androidx.core.ktx)
     
-    // TODO: Add dependency on the generated protocol module once published
-    // implementation("com.nukive.renderprotocol:generated-kotlin:1.0.0")
+    // Pulls directly from the GitHub repository via JitPack
+    implementation("com.github.renderprotocol:rp-generated-kotlin:main-SNAPSHOT")
 
     testImplementation(libs.junit)
 }
